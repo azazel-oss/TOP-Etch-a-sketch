@@ -19,7 +19,11 @@ gridPromptBtn.addEventListener("click", () => {
   const boxListEl = document.querySelectorAll(".box");
   boxListEl.forEach((box) => {
     box.addEventListener("mouseenter", (event) => {
-      event.target.style.backgroundColor = "red";
+      event.target.style.backgroundColor = `rgb(${Math.floor(
+        Math.random() * 255
+      )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
+        Math.random() * 255
+      )})`;
     });
   });
 });
