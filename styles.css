@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+body {
+  font-family: Ubuntu;
+  text-align: center;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  margin: 0 auto;
+  border: 2px blueviolet solid;
+}
+
+.box {
+  border: 1px solid saddlebrown;
+}
